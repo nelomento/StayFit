@@ -1,16 +1,13 @@
-
-import './App.css';
-import SideBar from './components/SideBar';
-import MainPage from './components/MainPage';
+import "./App.css";
+import SideBar from "./components/SideBar";
+import Main from "./components/Main";
 
 function App() {
-  return (
-  
-      <SideBar>
-        <MainPage/>
-      </SideBar>
-  
-  );
+ return (
+  <SideBar>
+   <Main />
+  </SideBar>
+ );
 }
 
 export default App;
