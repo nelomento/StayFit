@@ -1,11 +1,11 @@
 import "./App.css";
 import SideBar from "./components/SideBar";
-import Main from "./components/Main";
+import HomePage from "./pages/HomePage";
 
 function App() {
  return (
   <SideBar>
-   <Main />
+   <HomePage />
   </SideBar>
  );
 }

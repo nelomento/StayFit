@@ -1,7 +1,6 @@
 import React from "react";
 import {Col, Row} from "antd";
 import {Card, Avatar} from "antd";
-import "../styles/Display.css";
 import "../styles/MainPage.css";
 import {
  EditOutlined,
