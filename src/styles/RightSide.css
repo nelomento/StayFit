@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+.card-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 15px 0 15px;
+
+}
+
+.card-text p, .pg {
+    color: #6B6E7B;
+
+}
+
+.body-size {
+    background-color: #ffffff;
+    width: 90%;
+    border-radius: 8px;
+    margin: 15px 15px 15px 15px;
+    height: 12%;
+    align-items: center;
+}
+
+.body-reminder {
+    background-color: #ffffff;
+    width: 90%;
+    border-radius: 8px;
+    margin: 15px 15px 15px 15px;
+    height: 30%;
+    align-items: center;
+}
+
+#reminder-percentage {
+   text-align: center;
+   align-items: center;
+   padding-top: 6%;
+
+}
+
+.sub {
+    color: #9DACC1;
+    font-weight: 400;
+}
+
+.running {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.body-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.running-img {
+    padding-right: 10px;
+    margin: auto;
+
+}
+
+.running-text h3 {
+    margin-bottom: auto;
+}
+
+.Sidebar-heading {
+    color: #1C1F35;
+    font-weight: 200;
+    font-size: 14px;
+    margin: 18px 0px 18px 18px;
+}

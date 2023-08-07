@@ -1,10 +1,11 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
+import "../styles/SideBar.css"
 import {
  MenuFoldOutlined,
  MenuUnfoldOutlined,
- UploadOutlined,
- UserOutlined,
- VideoCameraOutlined
+ SlidersOutlined,
+ HomeOutlined,
+ GoldOutlined
 } from "@ant-design/icons";
 import {Layout, Menu, Button, theme} from "antd";
 
@@ -16,27 +17,27 @@ const SideBar = (props) => {
  } = theme.useToken();
  return (
   <Layout>
-   <Sider trigger={null} collapsible collapsed={collapsed}>
+   <Sider trigger={null} collapsible collapsed={collapsed} id="sidenav">
     <div className="demo-logo-vertical" />
     <Menu
-     theme="dark"
+     theme="light"
      mode="inline"
      defaultSelectedKeys={["1"]}
      items={[
       {
        key: "1",
-       icon: <UserOutlined />,
-       label: "nav 1"
+       icon: <HomeOutlined />,
+       label: "Dashboard"
       },
       {
        key: "2",
-       icon: <VideoCameraOutlined />,
-       label: "nav 2"
+       icon: <GoldOutlined />,
+       label: "Goals"
       },
       {
        key: "3",
-       icon: <UploadOutlined />,
-       label: "nav 3"
+       icon: <SlidersOutlined />,
+       label: "Activities"
       }
      ]}
     />
@@ -74,9 +75,7 @@ const SideBar = (props) => {
       textAlign: "center"
      }}
     >
-    
-      Fitness App © 2023. <span>Created by CBC Group E</span>
-    
+     Fitness App © 2023. <span>Created by CBC Group E</span>
     </Footer>
    </Layout>
   </Layout>
