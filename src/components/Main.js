@@ -77,7 +77,7 @@ function Main(props) {
      
     </Col>
     <Col flex="0 1 280px" className="right-bar">
-     <p>Side Page</p>
+   
     </Col>
    </Row>
   </div>

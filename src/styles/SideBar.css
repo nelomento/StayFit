@@ -1,7 +1,21 @@
-#layout-container {
-    background-color: #ff0000;
+#sidenav {
+    background: #ffffff;
+
 }
 
-#sidenav {
-    background: #ffffff
+#sidemenu {
+    background: #ffffff;
+    padding-top: 20%;
 }
+
+#logo {
+    display: flex;
+    padding: 20px 15px;
+    color: #FF7443;
+}
+
+.navText {
+    color: #191C32;
+    font-weight: 500;
+}
+

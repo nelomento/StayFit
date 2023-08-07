@@ -14,6 +14,10 @@ function RightSide(props) {
     <div className="profile-section">
      {/* <Avatar shape="square" size="large" icon={<UserOutlined />} /> */}
     </div>
+
+    <div className="Sidebar-heading">
+     <h2>Body Size</h2>
+    </div>
     <div className="body-size">
      <div className="card-text">
       <div>
