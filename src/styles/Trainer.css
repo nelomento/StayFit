@@ -1,0 +1,40 @@
+.trainer-contents {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 4px;
+    margin-bottom: 0;
+}
+
+h4 {
+    /* color: #8676FE; */
+    color: #3b9dff;
+
+}
+
+h3 {
+
+    margin-top: -10;
+
+}
+
+.trainer-icons1 {
+    margin-bottom: 0;
+    padding-right: 50px;
+    padding-left: 1.5em;
+
+}
+
+.trainer-icons {
+    display: flex;
+    padding-right: 60px;
+
+}
+
+.trainers {
+    margin-top: 2em;
+}
+
+.trainer-heading {
+    margin: 40px 0px 10px 0;
+}

@@ -1,0 +1,8 @@
+#analysis-img {
+    background-image: url("../assets//images/Calories-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 20vh;
+    background-position: center;
+    /* padding-top: 4rem; */
+}
