@@ -10,7 +10,9 @@ function Menu(props) {
   <div id="featured-menu">
    <Row>
     <Col span={24}>
-     <h3>Featured Diet Menu</h3>
+     <div className="trainer-heading">
+      <h2>Featured Diet Menu</h2>
+     </div>
      <Row>
       <Col span={12}>
        <Card

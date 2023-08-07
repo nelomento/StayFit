@@ -7,6 +7,7 @@ import {
  EllipsisOutlined,
  SettingOutlined
 } from "@ant-design/icons";
+import "../styles/Trainer.css";
 
 const {Meta} = Card;
 
@@ -15,32 +16,35 @@ function Trainer(props) {
   <div id="recommeded-trainers">
    <Row>
     <Col span={24}>
-     <h3>Recommended Trainer for you</h3>
+     <div className="trainer-heading">
+      <h2>Recommended Trainer for you</h2>
+     </div>
      <Row>
       <Col span={8}>
        <Card
         style={{
          width: 300
         }}
-        cover={
-         <img
-          alt="example"
-          src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
-         />
-        }
-        actions={[
-         <SettingOutlined key="setting" />,
-         <EditOutlined key="edit" />,
-         <EllipsisOutlined key="ellipsis" />
-        ]}
+        cover={<img src="/assets/images/recommendedTrainer2.png" alt="" />}
        >
-        <Meta
-         avatar={
-          <Avatar src="https://xsgames.co/randomusers/avatar.php?g=pixel" />
-         }
-         title="Card title"
-         description="This is the description"
-        />
+        <Meta title="Cameron Williamson" description="Fitness Specialist" />
+
+        <div className="trainers">
+         <div className="trainer-icons">
+          <img
+           src="/assets/icons/goalsAchieved.svg"
+           className="trainer-icons"
+           alt=""
+          />
+          <img src="/assets/icons/ratings.svg" alt="" />
+         </div>
+
+         <div className="trainer-contents">
+          <h3>25</h3>
+          <h3>104</h3>
+          <h4>View Profile</h4>
+         </div>
+        </div>
        </Card>
       </Col>
       <Col span={8}>
@@ -48,25 +52,26 @@ function Trainer(props) {
         style={{
          width: 300
         }}
-        cover={
-         <img
-          alt="example"
-          src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
-         />
-        }
-        actions={[
-         <SettingOutlined key="setting" />,
-         <EditOutlined key="edit" />,
-         <EllipsisOutlined key="ellipsis" />
-        ]}
+        cover={<img src="/assets/images/recommendedTrainer1.png" alt="" />}
        >
-        <Meta
-         avatar={
-          <Avatar src="https://xsgames.co/randomusers/avatar.php?g=pixel" />
-         }
-         title="Card title"
-         description="This is the description"
-        />
+        <Meta title="James Foreman" description="Body Builder" />
+
+        <div className="trainers">
+         <div className="trainer-icons">
+          <img
+           src="/assets/icons/goalsAchieved.svg"
+           className="trainer-icons"
+           alt=""
+          />
+          <img src="/assets/icons/ratings.svg" alt="" />
+         </div>
+
+         <div className="trainer-contents">
+          <h3>25</h3>
+          <h3>104</h3>
+          <h4>View Profile</h4>
+         </div>
+        </div>
        </Card>
       </Col>
       <Col span={8}>
@@ -74,25 +79,26 @@ function Trainer(props) {
         style={{
          width: 300
         }}
-        cover={
-         <img
-          alt="example"
-          src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
-         />
-        }
-        actions={[
-         <SettingOutlined key="setting" />,
-         <EditOutlined key="edit" />,
-         <EllipsisOutlined key="ellipsis" />
-        ]}
+        cover={<img src="/assets/images/recommendedTrainer3.png" alt="" />}
        >
-        <Meta
-         avatar={
-          <Avatar src="https://xsgames.co/randomusers/avatar.php?g=pixel" />
-         }
-         title="Card title"
-         description="This is the description"
-        />
+        <Meta title="Mike Johnson" description="Fitness Specialist" />
+
+        <div className="trainers">
+         <div className="trainer-icons">
+          <img
+           src="/assets/icons/goalsAchieved.svg"
+           className="trainer-icons"
+           alt=""
+          />
+          <img src="/assets/icons/ratings.svg" alt="" />
+         </div>
+
+         <div className="trainer-contents">
+          <h3>25</h3>
+          <h3>104</h3>
+          <h4>View Profile</h4>
+         </div>
+        </div>
        </Card>
       </Col>
      </Row>

@@ -3,6 +3,7 @@ import {Col, Row} from "antd";
 import {Card} from "antd";
 import {Button} from "antd/es/radio";
 import "../styles/MainPage.css";
+import "../styles/Analysis.css"
 
 
 function Analyses(props) {
@@ -10,7 +11,8 @@ function Analyses(props) {
   <div id="analyses">
    <Row gutter={[16, 16]}>
     <Col span={6}>
-     <Card
+                 <Card
+    id="analysis-img"
       style={{
        width: 230
       }}
